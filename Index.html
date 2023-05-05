@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nita SweetDreams</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+<body>
+  <header class="encabezado">
+    <img src="banner.png" alt="Imagen 1">
+    <nav>
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
+      <ul class="menu">
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#contact">Contáctanos</a></li>
+      </ul>
+      <p>
+        <a class="nav-link" href="#"><i class="fa fa-facebook-square"></i></a>
+        <a class="nav-link" href="#"><i class="fa fa-twitter-square"></i></a>
+        <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+      </p>
+    </nav>
+  </header>
+
+  <main style="margin-top: 100px;">
+    <section id="about">
+      <h2>Sobre Nosotros</h2>
+    <h1>Bienvenido/a a Sweet & Dreams de Nita Espindola</h1>
+    <p>Somos un pequeño negocio familiar que se dedica a la elaboración de pasteles hechos a mano y con mucho amor desde nuestra casa. Nos apasiona la repostería y nos encanta crear pasteles únicos y hermosos que deleiten a nuestros clientes.</p>
+    <p>Cada uno de nuestros pasteles es una obra de arte en sí mismo, elaborado con ingredientes de alta calidad y decorado a mano con una atención meticulosa a los detalles. Ya sea que esté buscando un pastel de cumpleaños, una tarta de bodas o cualquier otro tipo de postre, estamos seguros de que encontrará algo que le guste en nuestra tienda.</p>
+    <p>Desde que comenzamos a operar desde casa hace varios años, hemos sido muy afortunados de recibir comentarios positivos de nuestros clientes satisfechos. Nos esforzamos por superar sus expectativas y estamos comprometidos con la excelencia en todo lo que hacemos.</p>
+    <p>Gracias por visitar nuestra página web y esperamos tener la oportunidad de crear un pastel delicioso y artístico para usted pronto.</p>
+  </section>
+</main>
+    <section id="gallery">
+      <h2>Galería</h2>
+      <div class="gallery-container carousel">
+        <img src="cupcakes_vainilla.jpg" alt="Imagen 1">
+        <img src="pastel_chocolate.jpg" alt="Imagen 2">
+        <img src="galletas_mantequilla.jpg" alt="Imagen 3">
+        <img src="cupcakes_vainilla.jpg" alt="Imagen 4">
+        <img src="pastel_chocolate.jpg" alt="Imagen 5">
+        <img src="galletas_mantequilla.jpg" alt="Imagen 6">
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Derechos Reservados Nita SweetDreams 2023</p>
+  </footer>
+  <script src="js/actions.js"></script>
+</body>
+</html>
